@@ -1,4 +1,4 @@
-#LIBFT
+# LIBFT
 
 Libc functions | Additional functions | Bonus Functions | Personal Functions
 :----------- | :-----------: | :-----------: | -----------:
