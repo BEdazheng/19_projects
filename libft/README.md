@@ -2,12 +2,12 @@
 
 Libc functions | Additional functions | Bonus Functions | Personal Functions
 :----------- | :-----------: | :-----------: | -----------:
-memset		| ft_memalloc	| ft_lstnew		| ft_capitalize
+memset		| ft_memalloc	| ft_lstnew		| ft_abs
 bzero		| ft_memdel		| ft_lstdelone	| ft_islower
 memcpy		| ft_strnew		| ft_lstdel		| ft_isupper
-memccpy		| ft_strdel		| ft_lstadd		|
-memmove		| ft_strclr		| ft_lstiter	|
-memchr		| ft_striter	| ft_lstmap		|
+memccpy		| ft_strdel		| ft_lstadd		| ft_isdigit
+memmove		| ft_strclr		| ft_lstiter	| ft_itoa_base
+memchr		| ft_striter	| ft_lstmap		| ft_strjoin_and_free
 memcmp		| ft_striteri	|				|
 strlen		| ft_strmap		|				|
 strdup		| ft_strmapi	|				|
