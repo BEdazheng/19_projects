@@ -26,6 +26,6 @@ isalpha		| ft_putchar_fd	| |
 isdigit		| ft_putstr_fd	| |
 isalnum		| ft_putendl_fd	| |
 isascii		| ft_putnbr_fd	| |
-isprint		|| | ft_count2darray
-toupper		| | | ft_strarrmax
-tolower		| | | ft_get_parent_path
+isprint		|| |
+toupper		| | |
+tolower		| | |
