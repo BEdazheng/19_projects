@@ -14,7 +14,17 @@ The constraints are:
 I used suurballe's algorithm's to find the K(2 or more) node-disjoint paths
 And for the path finding I used dijkstra and BFS
 
-
 Here is a visualisation (not done yet)
+
+# How to use it:
+
+clone the repo
+go inside the repo
+(the program is already executed but you can make re if you want)
+cat text_file | ./lem-in
+
+To see the visualisation you have to put the output in a file called 'solution' like:
+cat text_file | ./lem-in > solution
+and then run srcs/visu/visu.py in a python env
 
 ![](lemin.gif)
