@@ -18,9 +18,9 @@ Here is a visualisation (not done yet).
 
 # How to use it:
 
-clone the repo.
-go inside the repo.
-(the program is already executed but you can make re if you want).
+Clone the repo.
+Go inside the repo (the program is already executed but you can make re if you want).
+
 cat text_file &#124; ./lem-in.
 
 To see the visualisation you have to put the output in a file called 'solution' like:
