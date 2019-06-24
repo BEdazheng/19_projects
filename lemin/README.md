@@ -11,20 +11,20 @@ The constraints are:
 -A cell can only contain up to one ant (except the start and end cells).
 -Use the paths that take the fewest turn for the ants to go to the end room.
 
-I used suurballe's algorithm's to find the K(2 or more) node-disjoint paths
-And for the path finding I used dijkstra and BFS
+I used suurballe's algorithm's to find the K(2 or more) node-disjoint paths.
+And for the path finding I used dijkstra and BFS.
 
-Here is a visualisation (not done yet)
+Here is a visualisation (not done yet).
 
 # How to use it:
 
-clone the repo
-go inside the repo
-(the program is already executed but you can make re if you want)
-cat text_file &#124; ./lem-in
+clone the repo.
+go inside the repo.
+(the program is already executed but you can make re if you want).
+cat text_file &#124; ./lem-in.
 
 To see the visualisation you have to put the output in a file called 'solution' like:
-cat text_file &#124; ./lem-in > solution
-and then run srcs/visu/visu.py in a python env
+cat text_file &#124; ./lem-in > solution.
+and then run srcs/visu/visu.py in a python env.
 
 ![](lemin.gif)
