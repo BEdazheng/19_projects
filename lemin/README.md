@@ -12,6 +12,8 @@ The constraints are:
 -Use the paths that take the fewest turn for the ants to go to the end room.
 
 I used suurballe's algorithm's to find the K(2 or more) node-disjoint paths
+And for the path finding I used dijkstra and BFS
+
 
 Here is a visualisation (not done yet)
 
