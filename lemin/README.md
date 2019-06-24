@@ -23,8 +23,9 @@ Go inside the repo (the program is already executed but you can make re if you w
 
 cat text_file &#124; ./lem-in.
 
-To see the visualisation you have to put the output in a file called 'solution' like:
+To see the visualisation you have to put the output in a file called 'solution' like that.
 Cat text_file &#124; ./lem-in > solution.
-And then run srcs/visu/visu.py in a python env.
+And then run.
+srcs/visu/visu.py
 
 ![](lemin.gif)
