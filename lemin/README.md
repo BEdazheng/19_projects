@@ -21,10 +21,10 @@ Here is a visualisation (not done yet)
 clone the repo
 go inside the repo
 (the program is already executed but you can make re if you want)
-cat text_file | ./lem-in
+cat text_file &#124; ./lem-in
 
 To see the visualisation you have to put the output in a file called 'solution' like:
-cat text_file | ./lem-in > solution
+cat text_file &#124; ./lem-in > solution
 and then run srcs/visu/visu.py in a python env
 
 ![](lemin.gif)
