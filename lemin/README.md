@@ -6,10 +6,10 @@ Both the program input and output are text formatted and have a specific format.
 
 The constraints are:
 
--The project must be written in C language.
--An ant can only move once per turn.
--A cell can only contain up to one ant (except the start and end cells).
--Use the paths that take the fewest turn for the ants to go to the end room.
+* The project must be written in C language.
+* An ant can only move once per turn.
+* A cell can only contain up to one ant (except the start and end cells).
+* Use the paths that take the fewest turn for the ants to go to the end room.
 
 I used suurballe's algorithm's to find the K(2 or more) node-disjoint paths.
 And for the path finding I used dijkstra and BFS.
