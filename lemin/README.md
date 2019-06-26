@@ -16,8 +16,7 @@ And for the path finding I used dijkstra and BFS.
 
 # Rules
 
-The program will receive the data describing the ant farm from the standard output
-in the following format:
+* The program will receive the data describing the ant farm from the standard output in the following format:
 number_of_ants
 the_rooms
 the_links
