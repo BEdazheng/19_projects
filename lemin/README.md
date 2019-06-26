@@ -14,7 +14,41 @@ The constraints are:
 I used suurballe's algorithm's to find the K(2 or more) node-disjoint paths.
 And for the path finding I used dijkstra and BFS.
 
-Here is a visualisation (not done yet).
+# Rules
+
+The program will receive the data describing the ant farm from the standard output
+in the following format:
+number_of_ants
+the_rooms
+the_links
+
+The ant farm is defined by the following links:
+
+##start
+1 23 3
+2 16 7
+#comment
+3 16 3
+4 16 5
+5 9 3
+6 1 5
+7 4 8
+##end
+0 9 5
+0-4
+0-6
+1-3
+4-3
+5-2
+3-5
+#another comment
+4-2
+2-1
+7-6
+7-2
+7-4
+6-5
+#another comment
 
 # How to use it:
 
@@ -27,5 +61,7 @@ To see the visualisation you have to put the output in a file called 'solution' 
 Cat text_file &#124; ./lem-in > solution.
 And then run.
 srcs/visu/visu.py
+
+Here is a visualisation (not done yet).
 
 ![](lemin.gif)
