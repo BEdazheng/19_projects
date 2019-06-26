@@ -21,6 +21,8 @@ number_of_ants
 the_rooms
 the_links
 
+![Alt text](rules.png?raw=true "Rules")
+
 The ant farm is defined by the following links:
 
 ##start
