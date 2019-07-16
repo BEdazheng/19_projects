@@ -22,8 +22,11 @@ And for the path finding I used dijkstra and BFS.
 
 Clone the repo.
 Go inside the repo.
-Run : make  
-      cat text_file &#124; ./lem-in  
+Run :  
+-make  
+-cat text_file &#124; ./lem-in  
+
+Instead of text_file you may choose between the files into tests repo  
 
 To see the visualisation you have to put the output in a file called 'solution' like that.
 Cat text_file &#124; ./lem-in > solution.
