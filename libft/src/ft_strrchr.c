@@ -14,11 +14,9 @@
 
 char	*ft_strrchr(const char *s, int c)
 {
-	int occur;
 	int count;
 
 	count = 0;
-	occur = -1;
 	while (*s)
 	{
 		s++;

@@ -69,12 +69,12 @@ static void	print_soluce(t_li *li, int cpt_ants, int cpt_turns, int i)
 			while (tmp->prev)
 			{
 				if (tmp->ant_num != 0)
-					ft_printf("L%d-%s ", tmp->ant_num, tmp->room->data[0]);
+					printf("L%d-%s ", tmp->ant_num, tmp->room->data[0]);
 				tmp->ant_num = tmp->prev->ant_num;
 				tmp = tmp->prev;
 			}
 		}
-		ft_printf("\n");
+		printf("\n");
 	}
 }
 
@@ -87,10 +87,10 @@ static void	print_data(t_li *li)
 	li->data = li->data->begin;
 	while (li->data)
 	{
-		ft_printf("%s\n", li->data->data);
+		printf("%s\n", li->data->data);
 		li->data = li->data->next;
 	}
-	ft_printf("\n");
+	printf("\n");
 	print_soluce(li, 1, 0, 0);
 }
 
@@ -104,16 +104,16 @@ int			main(int ac, char **av)
 		li_get_data(&li);
 		if (li.nb_start_end != 2 || li.error == 1 || !li.start->link ||
 				!li.end->link)
-			ft_printf("ERROR\n");
+			printf("ERROR\n");
 		else if (is_directly_linked(&li) == 0)
 		{
 			while (li.start->link[li.max_way] && li.end->link[li.max_way])
 				li.max_way++;
-			(solve(&li) == 0) ? print_data(&li) : ft_printf("ERROR\n");
+			(solve(&li) == 0) ? print_data(&li) : printf("ERROR\n");
 		}
 		garbage(&li);
 	}
 	else
-		ft_printf("ERROR\n");
+		printf("ERROR\n");
 	return (0);
 }

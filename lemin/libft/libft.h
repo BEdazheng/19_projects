@@ -14,11 +14,11 @@
 # define LIBFT_H
 
 # include <string.h>
+# include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
 # include <sys/types.h>
 # include <fcntl.h>
-# include "ft_printf.h"
 
 # define BUFF_SIZE 156
 
@@ -95,8 +95,5 @@ char			*ft_atoi2(const char *str, long long *res);
 
 char			*my_strcat(char *s1, char *s2);
 char			*ft_itoa_base(int n, int base);
-
-int				ft_fputc(int c, FILE *stream);
-int				my_fputs(char *s, FILE *stream, size_t len);
 
 #endif

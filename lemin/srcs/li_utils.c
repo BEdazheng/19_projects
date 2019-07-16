@@ -110,13 +110,13 @@ int			is_directly_linked(t_li *li)
 			li->data = li->data->begin;
 			while (li->data)
 			{
-				ft_printf("%s\n", li->data->data);
+				printf("%s\n", li->data->data);
 				li->data = li->data->next;
 			}
-			ft_printf("\n");
+			printf("\n");
 			while (++cpt <= li->nb_ants)
-				ft_printf("L%d-%s ", cpt, li->end->data[0]);
-			ft_printf("\n");
+				printf("L%d-%s ", cpt, li->end->data[0]);
+			printf("\n");
 			return (1);
 		}
 	}

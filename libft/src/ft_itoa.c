@@ -28,9 +28,7 @@ static int	count_char(int n)
 static char	*is_special(int n)
 {
 	char	*str;
-	int		count;
 
-	count = 9;
 	if (n == 0)
 	{
 		if (!(str = ft_strnew(1)))

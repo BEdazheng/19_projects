@@ -10,9 +10,8 @@ SRC = ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c \
 	  ft_strlen.c ft_strmap.c ft_strmapi.c ft_strncat.c ft_strncmp.c ft_strncpy.c \
 	  ft_strnequ.c ft_strnew.c ft_strnstr.c ft_strrchr.c ft_strsplit.c ft_strstr.c \
 	  ft_strsub.c ft_strtrim.c ft_tolower.c ft_toupper.c \
-	  get_next_line.c my_strcat.c ft_fputc.c my_fputs.c ft_atoi2.c ft_factorial.c\
-	  ft_printf.c utils.c init.c print.c itoa.c conv_string.c \
-	  conv_int.c conv_char.c conv_percent.c wide_utils.c
+	  get_next_line.c my_strcat.c ft_atoi2.c ft_factorial.c\
+	  utils.c init.c itoa.c wide_utils.c
 
 OBJ := $(SRC:%.c=%.o)
 

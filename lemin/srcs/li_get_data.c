@@ -78,11 +78,9 @@ static int	get_room_or_link(t_li *li, char *line)
 
 static int	get_start_end(t_li *li, int start_end)
 {
-	int		i;
 	char	**tab;
 	char	*line;
 
-	i = 0;
 	tab = NULL;
 	get_next_line(0, &line);
 	if (line && (line[0] == 'L' || line[0] == '#' || !save_data(li, line)))
