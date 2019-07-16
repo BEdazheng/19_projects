@@ -21,9 +21,9 @@ And for the path finding I used dijkstra and BFS.
 # How to use it:
 
 Clone the repo.
-Go inside the repo (the program is already executed but you can make re if you want).
-
-cat text_file &#124; ./lem-in.
+Go inside the repo.
+Run : make
+      cat text_file &#124; ./lem-in.
 
 To see the visualisation you have to put the output in a file called 'solution' like that.
 Cat text_file &#124; ./lem-in > solution.
